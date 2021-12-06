@@ -1,0 +1,27 @@
+#att {
+  font-size: 0.5em;
+}
+.nav-link{
+  color: azure;
+  font-size: 3vw;
+  
+}
+.navbar-brand > img 
+{
+   width:55px;
+}
+.container
+{
+  background-color:cornflowerblue ;
+  scrollbar-gutter: 0;
+  width:100%;
+  height:auto;
+  
+
+}
+.row{
+  width:100%;
+  height:auto;
+  display:block
+  
+}
