@@ -1,4 +1,4 @@
-# Week 7 - FaceAche Social App Example
+# Social Site Florentin and Naaz
 
-Social Card project example solution
+
  

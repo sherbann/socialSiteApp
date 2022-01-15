@@ -10,21 +10,23 @@ class Top extends React.Component {
             <Scard
                 key={i}
                 postId={current.postId}
-                id={current.id}
+                name={current.name}
                 img={current.img}
                 text={current.text}
                 likes={current.likes}
-                likeaction={this.props.likeaction}
-                removeAction={this.props.removeAction} />
+                likeAction={this.props.likeAction}
+                unlikeAction={this.props.unlikeAction}
+                removeAction={this.props.removeAction}
+                />
         )
         )
     }
     render() {
         return (
             <>
-                <div>
+                
                     {this.buildPosts()}
-                </div>
+                
             </>
         );
     }

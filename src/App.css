@@ -1,27 +1,80 @@
 #att {
   font-size: 0.5em;
 }
-.nav-link{
-  color: azure;
+#logo name
+{
+  color:red;
+}
+.nav-link
+{
+  color:white;
   font-size: 3vw;
+  display:flex;
+  float: right;
+  padding:0;
+
+}
+.navbar 
+{
+  background-image: url(./img/Chicago.jpg);
+  image-resolution: 250px 250px;
   
 }
 .navbar-brand > img 
 {
-   width:55px;
+   width:8vw;
+   display:flex;
+   float: left;
 }
 .container
 {
-  background-color:cornflowerblue ;
-  scrollbar-gutter: 0;
+  background-image: url(./img/Backgroun_container.png);
   width:100%;
-  height:auto;
-  
-
+  min-height: 200px;
+  /*background-size: cover;*/
 }
-.row{
+.Add
+{
   width:100%;
-  height:auto;
-  display:block
+  height:auto; 
+  font-size: 2vw;
+}
+.customCard
+{
   
+  margin-top: 5px;
+  margin-left:5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+#cardGroup
+{
+  font-family: 'Droid Sans';
+  height: auto;
+  max-width: 100%;
+  
+}
+.card-text
+{
+  
+  background-color: lightblue;
+}
+.card-body 
+{
+  background-color: lightblue;
+  margin: 0%;
+}
+.cardHeader 
+{
+  background-color:lightblue;
+  border: 0;
+}
+.removeButton
+{
+  
+  size: 1vw;
+  font-size: 100%;
 }

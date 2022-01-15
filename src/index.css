@@ -1,4 +1,5 @@
 body {
+  background-image: url(./img/background_Final.jpg);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,7 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.customeCard{
-  
-  max-width: 30%;
+.customCard{
+  font-family: 'Droid Sans';
+  height: auto;
+  background-color: sandybrown;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 0%;
+}
+.cardHeader
+{
+  background-color:lightblue;
+  border-style:groove;
 }
